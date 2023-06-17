@@ -102,7 +102,7 @@
                 jQuery.ajaxSetup({async: true});
 
                 if (returnObj.message === "DATA RETRIEVED FROM PI") {
-                    alert("data found");
+                    // alert("data found");
                     // Employee ID exists in the database
                     // var data = response[0];
                     displayData(returnObj.data);
@@ -111,7 +111,7 @@
                     
                 } else {
                     // Employee ID does not exist in the database
-                    alert("Not found");
+                    // alert("Not found");
                     enableAllFields();
                     enableButton("saveBtn");
                     $("#fullName").focus();
@@ -177,14 +177,14 @@
 
 
 
-                alert(createUPDATERecordRequest(token, JSON.stringify(data), dbName, relName, localStorage.getItem('recno')));
+                // alert(createUPDATERecordRequest(token, JSON.stringify(data), dbName, relName, localStorage.getItem('recno')));
 
 
                 jQuery.ajaxSetup({async: false});
                 var returnObj = executeCommand(baseUrl, imlPartUrl, createUPDATERecordRequest(token, JSON.stringify(data), dbName, relName, localStorage.getItem('recno')));
                 jQuery.ajaxSetup({async: true});
 
-                alert(JSON.stringify(returnObj));
+                // alert(JSON.stringify(returnObj));
 
                 if(returnObj.message === "Success"){
                     showSuccessAlert("Data updated successfully!");
