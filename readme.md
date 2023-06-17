@@ -27,6 +27,8 @@ JsonPowerDB is a high-performance, schema-less, and developer-friendly database 
 ## Illustrations
 ![Student Enrollment Form](screenshots/form.png)
 
+![Data Entry Example](screenshots/data-entry.gif)
+
 ## Scope of Functionalities
 The student enrollment form provides the following functionalities:
 - Enter and save student data in the database.
