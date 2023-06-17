@@ -11,7 +11,7 @@ JsonPowerDB is a high-performance, schema-less, and developer-friendly database 
 - **Developer-friendly APIs**: JsonPowerDB provides a rich set of APIs that make it easy to interact with the database and perform CRUD operations.
 
 ## Release History
-- v1.0.0 (YYYY-MM-DD): Initial release of the JsonPowerDB related code on GitHub.
+- v1.0.0 (2023-06-17): Initial release of the JsonPowerDB related code on GitHub.
 
 ## Table of Contents
 - Description
@@ -25,7 +25,7 @@ JsonPowerDB is a high-performance, schema-less, and developer-friendly database 
 - Other Information
 
 ## Illustrations
-Include relevant screenshots, GIFs, or diagrams to showcase the student enrollment form and its features.
+![Student Enrollment Form](screenshots/form.png)
 
 ## Scope of Functionalities
 The student enrollment form provides the following functionalities:
@@ -49,7 +49,7 @@ The student enrollment form provides the following functionalities:
 The project is currently in its initial development stage. Basic functionalities are implemented, but further enhancements and refinements may be added in future updates.
 
 ## Sources
-- JsonPowerDB documentation: [https://jsonpowerdb.com/](https://jsonpowerdb.com/)
+- JsonPowerDB documentation: [https://jsonpowerdb.com/](https://login2explore.com/jpdb/docs.html)
 - jQuery documentation: [https://jquery.com/](https://jquery.com/)
 
 ## Other Information
